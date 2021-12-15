@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Login and Resgistration form</title>
+        <link rel="stylesheet" href="form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="Login()"><b>Login</b></button>
+                    <button type="button" class="toggle-btn" onclick="Register()"><b>Register</b></button>
+                </div>
+                <form id="Login" class="input-group">
+                    <input type="text" class="input-field" placeholder="user Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="Submit" class="Submit-btn"><b>Login</b></button>
+                </form>
+                <form id="Register" class="input-group">
+                    <input type="text" class="input-field" placeholder="user Id" required>
+                    <input type="Email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="Checkbox" class="Check-box"><span>I agree to the term & condition</span>
+                    <button type="Submit" class="Submit-btn"><b>Register</b></button>
+                </form>
+            </div>
+        </div>    
+        <script>
+        var x=document.getElementById("Login");
+        var y=document.getElementById("Register");
+        var z=document.getElementById("btn");
+        
+        function Register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+
+        function Login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0";
+        }
+        </script>
+    </body>    
+</html>

@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+a:hover{
+    color: rgb(5, 119, 100);
+    transition: all ease 0.3s;
+}
+p{
+    color: black;
+    font-size: 0.9rem;
+}
+p:hover{
+    color: darkgreen;
+    transition: all ease 0.8s;
+}
+#font{
+    font-size: 1.2rem;
+}
+.social_call {
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social a{
+    margin: 5px 5px;
+    color: solid black;
+    font-size: 1.7rem;
+}
+.phone{
+    color: solid black;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+.social a:hover{
+    color: #067c59;
+    transition: all ease 0.3s;
+}
+.phone:hover{
+    color: #067c59;
+    transition: all ease 0.3s;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg.png.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.image{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: inline-block;
+    background: rgb(220, 247, 194);
+    color: solid rgb(4, 15, 4);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: whitesmoke;
+    transform: scale(1.1);
+}
+h1 {
+    text-transform: uppercase;
+    color: #063608;
+}
+.row{
+    background: rgb(217, 219, 214);
+    text-align: left;
+    font-variant: small-caps;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+.search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 10px;
+}
+.search-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a;
+}
+.search-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 15px 0 0 10px;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+i{
+    margin: 0 10px 0 0;  
+}
+.float-container{
+    border: 0px solid white;
+    box-shadow: 20px 10px 15px #888888;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    width: 65%;
+    margin-left: 200px;
+    text-align: center;
+
+}
+.float-child  i{
+    text-align: center;
+}
+.float-child{
+   display: inline-block;
+   border: 1px soild black;
+   padding: 1rem 1rem;
+   text-align: center;
+
+}
+.float-child:hover{
+    transform: scale(1.1);
+}
+.float-child2{
+    display: inline-block;
+    border: 1px soild black;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.float-child2:hover{
+    transform: scale(1.1);
+}
+
+/*Quick search*/
+
+#quicksearch{
+    width:80%;
+    height: 500px;
+    margin-left:10%;
+    margin-top:2%
+}
+
+#QuickHeading{
+    color:rgb(245, 217, 217);
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    font-weight:bold
+}
+
+#QuickSubHeading{
+    color:white;
+    font-size:20px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: .01;
+}
+
+.tileContainer{
+    height: 160px;
+    width: 31%;
+    box-shadow: 15px 10px 15px rgb(94, 92, 92);
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%;
+    
+}
+
+#mainTileContainer{
+    margin-top: 3%;
+}
+
+.tileComponent1{
+    width:40%;
+    float: left;
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height: 160px;
+    width:100%;
+}
+
+.componentHeading{
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+    margin-top: -8%;
+}
+
+.componentSubHeading{
+    color: rgb(10, 10, 10);
+    font-size:15px;
+    line-height:1;
+}
+
+.tileContainer:hover{
+   transform: scale(1.1)
+}
+
+
+
+

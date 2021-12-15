@@ -1,0 +1,181 @@
+[
+    {
+        "_id":1,
+        "name":"Lakshmi Kamal succulent Plant",
+        "category":"Indoor Plants",
+        "category_id":2,
+        "rating":4.5,
+        "price":550,
+        "image":"https://i.ibb.co/CPMbrbL/vishnu.jpg"
+    },
+    {
+        "_id":2,
+        "name":"Areca Palm",
+        "category":"Gardening Plants",
+        "category_id":1,
+        "rating":4,
+        "price":450,
+        "image":"https://i.ibb.co/tM1pwwf/areca.jpg"
+    },
+    {
+        "_id":3,
+        "name":"Ficus Bonsai",
+        "category":"Indoor Plants",
+        "category_id":2,
+        "rating":4.5,
+        "price":500,
+        "image":"https://i.ibb.co/Lg8H8br/Ficus-microcarpa-ginseng-in-a-white-pot-Stylish-and-simple-plants-for-modern-desk.jpg"
+    },
+    {   
+        "_id":4,
+        "name":"Dracaena",
+        "category":"Gardening Plants",
+        "category_id":1,
+        "rating":4.5,
+        "price":550,
+        "image":"https://i.ibb.co/dWqr8fJ/dracaena.png"
+    },
+    {
+        "_id":5,
+        "name":"Hyacinthus",
+        "category":"Bulbs",
+        "category_id":4,
+        "rating":4,
+        "price":450,
+        "image":"https://i.ibb.co/F3bwZt0/hyacith.jpg"
+    },
+    {
+        "_id":6,
+        "name":"Lupine",
+        "category":"Seeds",
+        "category_id":3,
+        "rating":4.5,
+        "price":120,
+        "image":"https://i.ibb.co/Z2WtzXS/lupin.jpg"
+    },
+    {
+        "_id":7,
+        "name":"Purple Pixie",
+        "category":"Seeds",
+        "category_id":3,
+        "rating":5,
+        "price":150,
+        "image":"https://i.ibb.co/k6hVKT4/purplepixie.jpg"
+    },
+    {
+        "_id":8,
+        "name":"Tulips",
+        "category":"Bulbs",
+        "category_id":4,
+        "rating":5,
+        "price":250,
+        "image":"https://i.ibb.co/1r6jP9b/tulips2.jpg"
+    },
+    { "_id":9,
+        "name":"Artifical Tree with plastic pot",
+        "category":"Artifical Plants",
+        "category_id":5,
+        "rating":4,
+        "price":159,
+        "image":"https://i.ibb.co/y54Yh3K/artificalplant.jpg"
+    },
+    {
+        "_id":10,
+        "name":"Amputive Artifical Topiary Shrub with pot",
+        "category":"Artifical Plants",
+        "category_id":5,
+        "rating":4,
+        "price":199,
+        "image":"https://i.ibb.co/nz5by58/amputive.jpg"
+    },
+    {
+        "_id":11,
+        "name":"Desert Pride(cactus and Succlent Plant Food)",
+        "category":"Soil and Fertilizer",
+        "category_id":6,
+        "rating":4,
+        "price":100,
+        "image":"https://i.ibb.co/10Cc9ST/desertpride.jpg"
+    },
+    {
+        "_id":12,
+        "name":"Coco peat block",
+        "category":"Soil and Fertilizer",
+        "category_id":6,
+        "rating":4.5,
+        "price":150,
+        "image":"https://i.ibb.co/W0NHXm6/cocopeat.jpg"
+    },
+    {
+        "_id":13,
+        "name":"Jeevamrut",
+        "category":"Soil and Fertilizer",
+        "category_id":6,
+        "rating":4.5,
+        "price":200,
+        "image":"https://i.ibb.co/7KxmS5W/jeevamrut.jpg"
+    },
+    {
+        "_id":14,
+        "name":"Black Knight Succulent",
+        "category":"Indoor Plants",
+        "category_id":2,
+        "rating":4.5,
+        "price":120,
+        "image":"https://i.ibb.co/x7d46nx/blackprince.jpg"
+    },
+    {
+        "_id":15,
+        "name":"Tomato seeds",
+        "category":"Seeds",
+        "category_id":3,
+        "rating":5,
+        "price":60,
+        "image":"https://i.ibb.co/vspNVSW/tomato.webp"
+    },
+    {
+        "_id":16,
+        "name":"Cycas Revoluta",
+        "category":"Gardening Plants",
+        "category_id":1,
+        "rating":5,
+        "price":400,
+        "image":"https://i.ibb.co/W63szTR/cycas.jpg"
+    },
+    {
+        "_id":17,
+        "name":"Hollyhock Plant Seeds",
+        "category":"Seeds",
+        "category_id":3,
+        "rating":5,
+        "price":99,
+        "image":"https://i.ibb.co/0yp19T5/hollyhock.jpg"
+    },
+    {
+        "_id":18,
+        "name":"Saaheli Rose Seeds",
+        "category":"Seeds",
+        "category_id":3,
+        "rating":5,
+        "price":115,
+        "image":"https://i.ibb.co/XssTBVS/saaheli.jpg"
+    },
+    {
+        "_id":19,
+        "name":"Rose Artificial plant",
+        "category":"Artificial Plants",
+        "category_id":5,
+        "rating":5,
+        "price":150,
+        "image":"https://i.ibb.co/BBfcL2X/roseartifical.jpg"
+    },
+    {
+        "_id":20,
+        "name":"Iris",
+        "category":"Bulbs",
+        "category_id":4,
+        "rating":5,
+        "price":109,
+        "image":"https://i.ibb.co/q0D7QDQ/iris.jpg"
+    }
+]
